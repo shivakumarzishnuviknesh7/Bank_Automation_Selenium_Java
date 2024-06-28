@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="19" passed="17" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-17T12:42:43 IST" name="Suite" finished-at="2023-05-17T12:53:17 IST" duration-ms="634469">
+    <groups>
+    </groups>
+    <test started-at="2023-05-17T12:42:43 IST" name="Test" finished-at="2023-05-17T12:53:17 IST" duration-ms="634469">
+      <class name="N_Drive_Download.Bank_File">
+        <test-method is-config="true" signature="browser_open()[pri:0, instance:N_Drive_Download.Bank_File@7fe7c640]" started-at="2023-05-17T12:45:58 IST" name="browser_open" finished-at="2023-05-17T12:45:59 IST" duration-ms="1626" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_open -->
+        <test-method signature="tc7_Download_File_Bank_File()[pri:0, instance:N_Drive_Download.Bank_File@7fe7c640]" started-at="2023-05-17T12:45:59 IST" name="tc7_Download_File_Bank_File" finished-at="2023-05-17T12:47:34 IST" duration-ms="94793" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc7_Download_File_Bank_File -->
+        <test-method is-config="true" signature="Close_Window()[pri:0, instance:N_Drive_Download.Bank_File@7fe7c640]" started-at="2023-05-17T12:47:34 IST" name="Close_Window" finished-at="2023-05-17T12:47:37 IST" duration-ms="2569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Window -->
+      </class> <!-- N_Drive_Download.Bank_File -->
+      <class name="N_Drive_Download.N_Drive_suite">
+        <test-method is-config="true" signature="browser_open()[pri:0, instance:N_Drive_Download.N_Drive_suite@7bb6ab3a]" started-at="2023-05-17T12:44:25 IST" name="browser_open" finished-at="2023-05-17T12:44:27 IST" duration-ms="1722" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_open -->
+        <test-method signature="tc1_Login_Screen()[pri:1, instance:N_Drive_Download.N_Drive_suite@7bb6ab3a]" started-at="2023-05-17T12:44:27 IST" name="tc1_Login_Screen" finished-at="2023-05-17T12:44:33 IST" duration-ms="6284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_Login_Screen -->
+        <test-method signature="tc2_Select_Widget()[pri:2, instance:N_Drive_Download.N_Drive_suite@7bb6ab3a]" started-at="2023-05-17T12:44:33 IST" name="tc2_Select_Widget" finished-at="2023-05-17T12:44:37 IST" depends-on-methods="N_Drive_Download.N_Drive_suite.tc1_Login_Screen" duration-ms="4216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2_Select_Widget -->
+        <test-method signature="tc3_Selecting_the_required_details()[pri:3, instance:N_Drive_Download.N_Drive_suite@7bb6ab3a]" started-at="2023-05-17T12:44:37 IST" name="tc3_Selecting_the_required_details" finished-at="2023-05-17T12:44:48 IST" duration-ms="11091" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3_Selecting_the_required_details -->
+        <test-method signature="tc4_Selecting_the_Categories()[pri:4, instance:N_Drive_Download.N_Drive_suite@7bb6ab3a]" started-at="2023-05-17T12:44:48 IST" name="tc4_Selecting_the_Categories" finished-at="2023-05-17T12:45:01 IST" duration-ms="12387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4_Selecting_the_Categories -->
+        <test-method signature="tc5_To_Fetch_the_file()[pri:5, instance:N_Drive_Download.N_Drive_suite@7bb6ab3a]" started-at="2023-05-17T12:45:01 IST" name="tc5_To_Fetch_the_file" finished-at="2023-05-17T12:45:52 IST" duration-ms="51307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5_To_Fetch_the_file -->
+        <test-method signature="tc6_Download_check()[pri:6, instance:N_Drive_Download.N_Drive_suite@7bb6ab3a]" started-at="2023-05-17T12:45:52 IST" name="tc6_Download_check" finished-at="2023-05-17T12:45:55 IST" duration-ms="2755" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc6_Download_check -->
+        <test-method is-config="true" signature="Close_Window()[pri:0, instance:N_Drive_Download.N_Drive_suite@7bb6ab3a]" started-at="2023-05-17T12:45:55 IST" name="Close_Window" finished-at="2023-05-17T12:45:58 IST" duration-ms="2710" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Window -->
+      </class> <!-- N_Drive_Download.N_Drive_suite -->
+      <class name="Bank_Module_Generation.bank_module_suite">
+        <test-method is-config="true" signature="browser_open()[pri:0, instance:Bank_Module_Generation.bank_module_suite@19553973]" started-at="2023-05-17T12:43:30 IST" name="browser_open" finished-at="2023-05-17T12:43:31 IST" duration-ms="1481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_open -->
+        <test-method signature="tc1_Login_Screen()[pri:1, instance:Bank_Module_Generation.bank_module_suite@19553973]" started-at="2023-05-17T12:43:31 IST" name="tc1_Login_Screen" finished-at="2023-05-17T12:43:44 IST" duration-ms="12372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc1_Login_Screen -->
+        <test-method signature="tc2_Select_Bank_module_Widget()[pri:2, instance:Bank_Module_Generation.bank_module_suite@19553973]" started-at="2023-05-17T12:43:44 IST" name="tc2_Select_Bank_module_Widget" finished-at="2023-05-17T12:43:55 IST" depends-on-methods="Bank_Module_Generation.bank_module_suite.tc1_Login_Screen" duration-ms="10911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc2_Select_Bank_module_Widget -->
+        <test-method signature="tc3_Selecting_the_Required_details_of_CCBU_PG()[pri:3, instance:Bank_Module_Generation.bank_module_suite@19553973]" started-at="2023-05-17T12:43:55 IST" name="tc3_Selecting_the_Required_details_of_CCBU_PG" finished-at="2023-05-17T12:44:04 IST" depends-on-methods="Bank_Module_Generation.bank_module_suite.tc2_Select_Bank_module_Widget" duration-ms="8975" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc3_Selecting_the_Required_details_of_CCBU_PG -->
+        <test-method signature="tc4_Clicking_the_generateICON()[pri:4, instance:Bank_Module_Generation.bank_module_suite@19553973]" started-at="2023-05-17T12:44:04 IST" name="tc4_Clicking_the_generateICON" finished-at="2023-05-17T12:44:04 IST" depends-on-methods="Bank_Module_Generation.bank_module_suite.tc3_Selecting_the_Required_details_of_CCBU_PG" duration-ms="185" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc4_Clicking_the_generateICON -->
+        <test-method signature="tc5_Tick_to_generate_the_bank_file()[pri:5, instance:Bank_Module_Generation.bank_module_suite@19553973]" started-at="2023-05-17T12:44:04 IST" name="tc5_Tick_to_generate_the_bank_file" finished-at="2023-05-17T12:44:05 IST" depends-on-methods="Bank_Module_Generation.bank_module_suite.tc4_Clicking_the_generateICON" duration-ms="1313" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc5_Tick_to_generate_the_bank_file -->
+        <test-method signature="tc6_Generate_the_bank_file()[pri:6, instance:Bank_Module_Generation.bank_module_suite@19553973]" started-at="2023-05-17T12:44:05 IST" name="tc6_Generate_the_bank_file" finished-at="2023-05-17T12:44:05 IST" depends-on-methods="Bank_Module_Generation.bank_module_suite.tc5_Tick_to_generate_the_bank_file" duration-ms="194" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc6_Generate_the_bank_file -->
+        <test-method signature="tc7_pop_UP_Message_of_file_status_Pass()[pri:7, instance:Bank_Module_Generation.bank_module_suite@19553973]" started-at="2023-05-17T12:44:06 IST" name="tc7_pop_UP_Message_of_file_status_Pass" finished-at="2023-05-17T12:44:16 IST" depends-on-methods="Bank_Module_Generation.bank_module_suite.tc6_Generate_the_bank_file" duration-ms="10154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc7_pop_UP_Message_of_file_status_Pass -->
+        <test-method signature="tc9_Generate_The_Bank_Advice_And_Summary()[pri:8, instance:Bank_Module_Generation.bank_module_suite@19553973]" started-at="2023-05-17T12:44:16 IST" name="tc9_Generate_The_Bank_Advice_And_Summary" finished-at="2023-05-17T12:44:17 IST" depends-on-methods="Bank_Module_Generation.bank_module_suite.tc3_Selecting_the_Required_details_of_CCBU_PG" duration-ms="1199" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc9_Generate_The_Bank_Advice_And_Summary -->
+        <test-method signature="tc10_Getting_pop_up_message()[pri:9, instance:Bank_Module_Generation.bank_module_suite@19553973]" started-at="2023-05-17T12:44:17 IST" name="tc10_Getting_pop_up_message" finished-at="2023-05-17T12:44:23 IST" depends-on-methods="Bank_Module_Generation.bank_module_suite.tc9_Generate_The_Bank_Advice_And_Summary" duration-ms="6567" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc10_Getting_pop_up_message -->
+        <test-method is-config="true" signature="Close_Window()[pri:0, instance:Bank_Module_Generation.bank_module_suite@19553973]" started-at="2023-05-17T12:44:23 IST" name="Close_Window" finished-at="2023-05-17T12:44:25 IST" duration-ms="1672" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Window -->
+      </class> <!-- Bank_Module_Generation.bank_module_suite -->
+      <class name="Bank_Module_Generation.Pop_Up_Fail">
+        <test-method is-config="true" signature="browser_open()[pri:0, instance:Bank_Module_Generation.Pop_Up_Fail@f478a81]" started-at="2023-05-17T12:42:43 IST" name="browser_open" finished-at="2023-05-17T12:42:47 IST" duration-ms="4661" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_open -->
+        <test-method signature="tc8_pop_UP_Message_of_file_status_Fail()[pri:0, instance:Bank_Module_Generation.Pop_Up_Fail@f478a81]" started-at="2023-05-17T12:42:47 IST" name="tc8_pop_UP_Message_of_file_status_Fail" finished-at="2023-05-17T12:43:28 IST" duration-ms="40838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc8_pop_UP_Message_of_file_status_Fail -->
+        <test-method is-config="true" signature="Close_Window()[pri:0, instance:Bank_Module_Generation.Pop_Up_Fail@f478a81]" started-at="2023-05-17T12:43:28 IST" name="Close_Window" finished-at="2023-05-17T12:43:30 IST" duration-ms="1779" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Window -->
+      </class> <!-- Bank_Module_Generation.Pop_Up_Fail -->
+      <class name="N_Drive_Download.Bank_File_Summary">
+        <test-method is-config="true" signature="browser_open()[pri:0, instance:N_Drive_Download.Bank_File_Summary@7ce97ee5]" started-at="2023-05-17T12:48:20 IST" name="browser_open" finished-at="2023-05-17T12:48:22 IST" duration-ms="1739" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_open -->
+        <test-method signature="tc9_Download_File_Bank_Summary()[pri:0, instance:N_Drive_Download.Bank_File_Summary@7ce97ee5]" started-at="2023-05-17T12:48:22 IST" name="tc9_Download_File_Bank_Summary" finished-at="2023-05-17T12:53:15 IST" duration-ms="293226" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [17-May-2023] but found [05-May-2023]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [17-May-2023] but found [05-May-2023]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at custom_utilities.pages_N_drive.N_Drive_page.Date_Time_Check(N_Drive_page.java:1205)
+at N_Drive_Download.Bank_File_Summary.tc9_Download_File_Bank_Summary(Bank_File_Summary.java:128)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc9_Download_File_Bank_Summary -->
+        <test-method is-config="true" signature="Close_Window()[pri:0, instance:N_Drive_Download.Bank_File_Summary@7ce97ee5]" started-at="2023-05-17T12:53:15 IST" name="Close_Window" finished-at="2023-05-17T12:53:17 IST" duration-ms="1940" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Window -->
+      </class> <!-- N_Drive_Download.Bank_File_Summary -->
+      <class name="N_Drive_Download.Bank_Advice">
+        <test-method is-config="true" signature="browser_open()[pri:0, instance:N_Drive_Download.Bank_Advice@4c4748bf]" started-at="2023-05-17T12:47:37 IST" name="browser_open" finished-at="2023-05-17T12:47:39 IST" duration-ms="2702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser_open -->
+        <test-method signature="tc8_Download_File_Bank_Advice()[pri:0, instance:N_Drive_Download.Bank_Advice@4c4748bf]" started-at="2023-05-17T12:47:39 IST" name="tc8_Download_File_Bank_Advice" finished-at="2023-05-17T12:48:18 IST" duration-ms="38354" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [17-May-2023] but found [05-May-2023]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [17-May-2023] but found [05-May-2023]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:575)
+at org.testng.Assert.assertEquals(Assert.java:585)
+at custom_utilities.pages_N_drive.N_Drive_page.Date_Time_Check(N_Drive_page.java:1205)
+at N_Drive_Download.Bank_Advice.tc8_Download_File_Bank_Advice(Bank_Advice.java:126)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:584)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:172)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:804)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:145)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+at org.testng.TestRunner.privateRun(TestRunner.java:770)
+at org.testng.TestRunner.run(TestRunner.java:591)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:402)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)
+at org.testng.SuiteRunner.run(SuiteRunner.java:304)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1102)
+at org.testng.TestNG.runSuites(TestNG.java:1032)
+at org.testng.TestNG.run(TestNG.java:1000)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc8_Download_File_Bank_Advice -->
+        <test-method is-config="true" signature="Close_Window()[pri:0, instance:N_Drive_Download.Bank_Advice@4c4748bf]" started-at="2023-05-17T12:48:18 IST" name="Close_Window" finished-at="2023-05-17T12:48:20 IST" duration-ms="1964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Close_Window -->
+      </class> <!-- N_Drive_Download.Bank_Advice -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
